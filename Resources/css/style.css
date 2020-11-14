@@ -1,0 +1,164 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+text-rendering: optimizeLegibility;
+font-size: 20px;
+font-weight: 300;
+font-family: 'Lato';
+background-color: #e0ebe8 ;
+}
+
+.main-nav {
+font-family: 'Lato';
+list-style: none;
+background-color: black;
+opacity: 0.7;
+width: 100%;
+position: sticky;
+top: 0;
+}
+
+.main-nav li {
+display: inline-block;
+margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+font-weight: 700;
+font-size: 20px;
+text-decoration: none;
+text-transform: uppercase;
+color: white;
+padding: 8px 0;
+border-bottom: solid 2px transparent;}
+
+.main-nav li a:hover, 
+.main-nav li a:active {
+border-bottom: solid 2px #546de5;
+}
+
+header{
+background-image: url(../img/vintagetv.jpg);
+height: 100vh;
+width: 100%;
+background-size: cover;
+background-position: center;}
+
+.header{
+color: white;
+font-family: 'Lobster';
+font-size: 50px;
+letter-spacing: 1px;
+padding: 0 0 0 45px;
+transform: translate(0,50%);}
+
+
+
+.big-btn{
+width: 200px;
+height: auto;
+text-align: center;
+font-family: "Lato";
+margin-left: 96px;}
+.btn:link,
+.btn:visited{
+display: inline-block;
+padding: 10px 30px;
+text-decoration: none;
+border-radius: 200px;
+border: 1px solid #546de5;
+transition: backgtound color 0.2s, border 0.2s, color 0.2s;
+}
+.btn-ghost{
+color: #546de5;       
+}
+.btn-ghost:hover,
+.btn-ghost:active {
+background-color:#546de5;
+color: white;
+}
+h2{
+padding-top: 95px;
+letter-spacing: 1px;
+color: black;
+text-transform: uppercase;
+font-size: 180%;
+word-spacing: 2px;
+text-align: center;
+margin-bottom: 30px;
+letter-spacing: 1px
+}
+
+h2:after {
+display: block;
+height: 2px;
+background-color: #546de5;
+content:" ";
+width:150px;
+margin: 0 auto;
+margin-top: 30px;}
+
+h3{
+font-family: 'Dancing Script';
+letter-spacing: 1px;
+color: black;
+font-size: 180%;
+word-spacing: 2px;
+text-align: center;
+letter-spacing: 1px;
+margin-top: 100px;
+margin-bottom: 30px;
+
+}
+
+h3:after {
+display: block;
+height: 2px;
+background-color: #546de5;
+content:" ";
+width:150px;
+margin: 0 auto;
+margin-top: 30px;}
+
+.long-copy {
+line-height: 145%;
+width: 70%;
+margin-left: 15%;
+text-align: center;}
+
+.video-grid{
+margin-top: 80px;
+list-style: none;
+width: 100%;
+}
+
+.video-grid li {
+display: block;
+float: left;
+width: 33.3%;
+}
+
+.video-grid iframe{
+border: 2px solid transparent;
+opacity: 0.7;
+width: 100%;
+transition: opacity 0.5s;
+}
+
+
+.video-grid iframe:hover,
+.video-grid iframe:active{
+opacity: 1;
+}
+
+
+
+/*-----Categories-----*/
+
+
+
+
